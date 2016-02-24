@@ -217,8 +217,7 @@ label.icon-menu {
 .newsletter {
   background-image: url(../images/newsletter.png);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
-  height: 435px;
+  background-size: cover;
   text-align: right;
 }
 
@@ -238,6 +237,7 @@ label.icon-menu {
 
 .newsletter__content {
   display: inline-block;
+  padding: 70px 0;
   vertical-align: middle;
 }
 
@@ -408,13 +408,7 @@ label.icon-menu {
   }
 }
 
-@media screen and (max-width: 850px) {
-/*
-  .header__nav, .header__nav-link {
-    display: none;
-  }
-*/
-  
+@media screen and (max-width: 885px) {
   .banner__ctn {
     padding: 0 10px;
   }
@@ -448,15 +442,15 @@ label.icon-menu {
   .video-info__video-ctn {
     margin-bottom: 50px;
   }
+  
+  .newsletter__content {
+    padding: 40px 10px;
+  }
 }
 
 @media screen and (max-width: 543px) {
   .video-info__video {
     width: 100%;
-  }
-  
-  .newsletter__content {
-    padding: 0 10px;
   }
   
   .newsletter__suscribe input {
@@ -478,6 +472,7 @@ label.icon-menu {
     display: block;
     margin-bottom: 20px;
     padding: 5px;
+    transition: background-color 0.5s;
   }
   
   .footer__link:hover {
