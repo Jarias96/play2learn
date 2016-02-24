@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'address-icons';
+    src:    url('../fonts/address-icons.eot?1yxytj');
+    src:    url('../fonts/address-icons.eot?1yxytj#iefix') format('embedded-opentype'),
+        url('../fonts/address-icons.ttf?1yxytj') format('truetype'),
+        url('../fonts/address-icons.woff?1yxytj') format('woff'),
+        url('../fonts/address-icons.svg?1yxytj#address-icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'address-icons' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-phone:before {
+    content: "\e900";
+}
+.icon-add-contact:before {
+    content: "\e901";
+}
+.icon-delete:before {
+    content: "\e902";
+}
+.icon-add:before {
+    content: "\e903";
+}
+.icon-close:before {
+    content: "\e904";
+}
+.icon-letter:before {
+    content: "\e905";
+}
+.icon-twitter:before {
+    content: "\e906";
+}
+.icon-star:before {
+    content: "\e907";
+}
+.icon-menu:before {
+    content: "\e908";
+}
+
